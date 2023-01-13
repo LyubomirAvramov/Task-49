@@ -8,3 +8,8 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 });
+
+"scripts": {
+    "start": "npm run build && node server.js"
+  },
+
